@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Mont600';
+    src: url('../../assets/fonts/Mont600.ttf');
+}
+
+@font-face {
+    font-family: 'Mont700';
+    src: url('../../assets/fonts/Mont700.ttf');
+}
+
+@font-face {
+    font-family: 'Mont800';
+    src: url('../../assets/fonts/Mont800.ttf');
+}
+
+.hero {
+    padding: 0px 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_img {
+    width: 100%;
+}
+
+.heroBannerBottom {
+    width: 90%;
+    height: 120px;
+    background-color: white;
+    box-shadow: 0px 30px 60px rgba(198, 191, 191, 0.18);
+    border-radius: 24px;
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 35px;
+}
+
+.heroBottom_linr {
+    width: 52px;
+    height: 0px;
+    opacity: 0.2;
+    border: 1px solid #0B0614;
+    transform: rotate(90deg);
+}
+
+.heroBottom_card {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.heroBottom_title {
+    font-family: 'Mont600';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0B0614;
+    opacity: 0.5;
+}
+
+.heroBottom_text {
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B0614;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+.heroBottom_btn {
+    width: 135px;
+    height: 80px;
+    background: #FF5029;
+    border-radius: 16px;
+    border: transparent;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px) {
+    .heroBottom_btn {
+        width: 100px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .heroBannerBottom {
+        height: auto;
+        border-radius: 20px;
+        gap: 0px;
+        padding: 25px;
+    }
+
+    .heroBottom_card {
+        gap: 5px;
+    }
+
+    .heroBottom_title {
+        font-size: 14px;
+    }
+
+    .heroBottom_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero {
+        padding: 0px 10px;
+    }
+
+    .heroBannerBottom {
+        width: 95%;
+        border-radius: 15;
+        margin-top: -50px;
+        padding: 20px;
+    }
+
+    .heroBottom_btn {
+        display: none;
+    }
+
+    .heroBannerBottom {
+        height: auto;
+        border-radius: 20px;
+        gap: 0px;
+        padding: 25px;
+    }
+
+    .heroBottom_card {
+        gap: 5px;
+    }
+
+    .heroBottom_title {
+        font-size: 14px;
+    }
+
+    .heroBottom_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .heroBannerBottom {
+        display: none;
+    }
+}

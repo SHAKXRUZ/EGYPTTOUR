@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Mont600';
+    src: url('../../assets/fonts/Mont600.ttf');
+}
+
+@font-face {
+    font-family: 'Mont700';
+    src: url('../../assets/fonts/Mont700.ttf');
+}
+
+@font-face {
+    font-family: 'Mont800';
+    src: url('../../assets/fonts/Mont800.ttf');
+}
+
+.header {
+    max-width: 1500px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.header_content {
+    padding: 43px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_line {
+    width: 32px;
+    height: 0px;
+    border: 2px solid rgba(11, 6, 20, 0.3);
+    transform: rotate(90deg);
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.form_input {
+    width: 70px;
+    height: 20px;
+    font-family: 'Mont600';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    flex: none;
+    color: dodgerblue;
+    order: 1;
+    flex-grow: 0;
+    text-align: center;
+    outline: none;
+    border: transparent;
+}
+
+.header_right,
+.header_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header_link {
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0B0614;
+    opacity: 0.8;
+}
+
+.signUpBtn {
+    width: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    width: 126px;
+    height: 62px;
+    background: #FF5029;
+    border-radius: 12px;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: transparent;
+    cursor: pointer;
+}
+
+.media_menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width:1000px) {
+    .header_content {
+        padding: 25px 0px;
+        justify-content: space-between;
+    }
+
+    .header_line {
+        display: none;
+    }
+
+    .header_right,
+    .header_item {
+        gap: 30px;
+    }
+
+    .signUpBtn {
+        width: 120px;
+        height: 45px;
+        border-radius: 7px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header_link {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .header_content {
+        padding: 20px 0px;
+    }
+
+
+
+    .header_right,
+    .header_item {
+        gap: 20px;
+    }
+
+    .signUpBtn {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .header_link {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .header_right {
+        display: none;
+    }
+
+    .media_menu {
+        display: flex;
+    }
+
+    .form {
+        display: none;
+    }
+    .header {
+        padding: 0px 10px;
+    }
+}

@@ -21,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .hero_img {
@@ -154,6 +155,10 @@
     .heroBottom_text {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .hero {
+        margin-bottom: 50px;
     }
 }
 

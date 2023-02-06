@@ -124,7 +124,7 @@
 @media only screen and (max-width:1200px) {
     .card {
         gap: 70px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 
     .card_title {
@@ -163,6 +163,7 @@
     .card {
         padding: 0px 10px;
     }
+
 }
 
 @media only screen and (max-width:650px) {
@@ -185,5 +186,9 @@
         width: 280px;
         height: 390px;
         gap: 0px;
+    }
+
+    .card {
+        margin-bottom: 25px;
     }
 }

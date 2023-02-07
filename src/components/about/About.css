@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Mont600';
+    src: url('../../assets/fonts/Mont600.ttf');
+}
+
+@font-face {
+    font-family: 'Mont700';
+    src: url('../../assets/fonts/Mont700.ttf');
+}
+
+@font-face {
+    font-family: 'Mont800';
+    src: url('../../assets/fonts/Mont800.ttf');
+}
+
+.about {
+    max-width: 1500px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+}
+
+.about_title {
+    text-align: center;
+    font-family: 'Mont800';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: #0B0614;
+    margin-bottom: 130px;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.about_card_left {
+    width: 605px;
+    height: 637px;
+    background: #FFFFFF;
+    box-shadow: 0px -8px 20px rgba(235, 235, 235, 0.15), 0px 30px 60px rgba(198, 191, 191, 0.15);
+    border-radius: 20px;
+    padding: 32px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about_cards1_images {
+    border-radius: 10px;
+}
+
+.about_card1_btn1 {
+    width: 115px;
+    height: 47px;
+    background: #FEF4F5;
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF5029;
+}
+
+.about_card1_title {
+    max-width: 354px;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #0B0614;
+}
+
+.abot_arrow {
+    color: #FF5029;
+}
+
+
+
+
+.about_card_right {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.about_cards {
+    width: 605px;
+    height: 303px;
+    background: #FFFFFF;
+    box-shadow: 0px -8px 20px rgba(235, 235, 235, 0.15), 0px 30px 60px rgba(198, 191, 191, 0.15);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about_cards_right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about_card1_btn2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 30px 8px 20px;
+    gap: 10px;
+    width: 186px;
+    height: 47px;
+    background: #FEF4F5;
+    border-radius: 12px;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF5029;
+    border: transparent;
+    cursor: pointer;
+}
+
+.about_card1_btn3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 30px 8px 20px;
+    gap: 10px;
+    width: 230px;
+    height: 47px;
+    background: #FEF4F5;
+    border-radius: 12px;
+    font-family: 'Mont700';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF5029;
+    border: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1450px) {
+    .about_content {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    .about_content {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .about_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .about_title {
+        margin-bottom: 100px;
+    }
+
+    .about_card_left {
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .about_card1_title {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .about_title {
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about_title {
+        font-size: 35px;
+    }
+
+    .about {
+        padding: 0px 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .about_cards1_images {
+        width: 100%;
+    }
+
+    .about_card_left {
+        width: 100%;
+        padding: 0px 0px;
+        gap: 10px;
+    }
+
+    .about_card1_btn1 {
+        font-size: 16px;
+    }
+
+    .about_card1_title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .about_cards {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about_cards_right {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .about_card1_btn2 {
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .about_card1_btn3 {
+        font-size: 16px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .about_title {
+        font-size: 25px;
+    }
+    .about_card1_title {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

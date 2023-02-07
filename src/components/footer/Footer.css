@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Mont600';
+    src: url('../../assets/fonts/Mont600.ttf');
+}
+
+@font-face {
+    font-family: 'Mont700';
+    src: url('../../assets/fonts/Mont700.ttf');
+}
+
+@font-face {
+    font-family: 'Mont800';
+    src: url('../../assets/fonts/Mont800.ttf');
+}
+
+.footer {
+    width: 100%;
+    background-color: #0B0614;
+    padding: 90px 0px 30px 0px;
+}
+
+.footerContent {
+    padding: 0px 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.footer_text_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 60px 100px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer_card_title {
+    margin-bottom: 20px;
+}
+
+.footer_card_texts {
+    max-width: 350px;
+    font-family: 'Mont600';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer_card_title {
+    font-family: 'Mont800';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer_card_text {
+    font-family: 'Mont600';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+
+.footer_bottom_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.footer_bootom_left {
+    font-family: 'Mont600';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.link_logo {
+    color: #FF5029;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer_icons {
+    color: #FF5029;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icons_span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #FF5029;
+    border: 1px solid #FF5029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1200px) {
+    .footer_text_content {
+        padding: 0px 0px 60px 0px;
+    }
+
+    .footer_bottom_content {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .footer_text_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_card_texts {
+        max-width: 200px;
+    }
+
+    .footer_bottom_content {
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .footerContent {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .footer_text_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .footer {
+        padding: 50px 0px 25px 0px;
+    }
+
+    .footer_text_content {
+        margin-bottom: 25px;
+    }
+
+    .footer_card_texts {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .footer_card_title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .footer_card_text {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+
+    .footer_bottom_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_bootom_left {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .icons_span {
+        width: 30px;
+        height: 30px;
+    }
+}
